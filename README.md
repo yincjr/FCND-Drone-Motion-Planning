@@ -86,3 +86,10 @@ Put all of these together and make up your own crazy paths to fly! Can you fly a
 ![Double Helix](./misc/double_helix.gif)
 
 Ok flying a double helix might seem like a silly idea, but imagine you are an autonomous first responder vehicle. You need to first fly to a particular building or location, then fly a reconnaissance pattern to survey the scene! Give it a try!
+
+If you have problems in installing the package udacidrone by Anaconda, you can 
+- 1)Download it from https://github.com/udacity/udacidrone
+- 2)Put it into the file FCND-Motion-Planning3 making sure that this package can be called by motion_planning.py.
+- 3)When you run the project motion_planning, you may be reminded some packages are missing. The solution is to install these required packages following this instruction: pip --upgrade package’s name
+
+(you can refer to https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/ to learn how to use pip, if you do not know about this.)
